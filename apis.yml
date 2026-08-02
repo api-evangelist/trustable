@@ -1,7 +1,23 @@
 aid: trustable
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trustable.png
 name: Trustable
-description: Trustable is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Trustable is a company listed on the a16z (Andreessen Horowitz) investment list and added
+  to the API Evangelist network as a portfolio lead. An enrichment pass on 2026-07-21 found no identifiable
+  public presence - trustable.com resolves (MarkMonitor nameservers) but refuses HTTPS connections and
+  publishes no MX records, trustable.co is parked for sale, trustable.io redirects to an unrelated
+  open-source software-trust project, and no press, Crunchbase, PitchBook, or LinkedIn coverage ties a
+  live company to the name. The company appears defunct or in stealth, with no API surface to profile.
 url: https://raw.githubusercontent.com/api-evangelist/trustable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,7 +27,12 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
 apis: []
